@@ -16,6 +16,7 @@
     </servlet>
 
     <servlet-mapping>
+        <!-- loading dispatcher class -->
         <servlet-name>dispatcher</servlet-name>
         <url-pattern>/springmvc/*</url-pattern>
     </servlet-mapping>
