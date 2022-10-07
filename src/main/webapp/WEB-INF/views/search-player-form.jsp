@@ -6,10 +6,10 @@
     <title>Player Form</title>
 </head>
 <body>
-<h1>Search Player Form </h1>
+<h1>Player Form </h1>
 
 <form action="showPlayerDetail" method="GET">
-    <label>Player Name:</label>
+    <label>Player Form:</label>
     <input type="text" name="playerName" />
     <input type="submit" value="Enter" />
 </form>

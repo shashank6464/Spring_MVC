@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletRequest;
 public class PlayerController {
 
     @RequestMapping(value = "/searchPlayerForm")
-    public String searchPlayerForm() {
+    public String searchPlayerForm(){
         return "search-player-form";
     }
 
