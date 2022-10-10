@@ -1,5 +1,6 @@
-package org.example;
+package org.example.Service;
 
+import org.example.Player;
 import org.springframework.stereotype.Service;
 
 import java.util.Arrays;

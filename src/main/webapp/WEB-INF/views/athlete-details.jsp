@@ -2,6 +2,8 @@
 
 <%@ taglib uri = "http://java.sun.com/jsp/jstl/core" prefix="c"%>
 
+<%@ taglib uri = "http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -14,6 +16,10 @@
 <p> Name : ${athlete.name} </p>
 <p> Country : ${athlete.country} </p>
 <p> Rank : ${athlete.rank} </p>
+<p> Designation : ${athlete.designation} </p>
+<b> DOB : </b><fmt:formatDate value ="${athlete.dob}" type="date" patter="dd-MM-YYYY"/>
+<p> DOB : ${athlete.dob} </p>
+<p> Email :${athlete.email} </p>
 
 <p>
     Tournaments List:
